@@ -1,12 +1,13 @@
 const initialState = {
-
+  users: [],
   };
 
-  const pizzas = (state = initialState, action) => {
+  const userReducer = (state = initialState, action) => {
     switch (action.type) {
       case 'GET_USERS':
         return {
           ...state,
+          users: [,action.users]
         };
 
       default:
@@ -14,4 +15,4 @@ const initialState = {
     }
   };
 
-  export default pizzas;
+  export default userReducer;

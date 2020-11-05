@@ -1,6 +1,8 @@
 import React from 'react'
+import Albums from './Albums'
 
 function Header() {
+
     return (
         <div className="Header">
             <div className='header_box'>
@@ -15,6 +17,9 @@ function Header() {
                         Альбомы
                     </li>
                 </ul>
+            </div>
+            <div className='header_photo'>
+                <Albums/>
             </div>
         </div>
     )
