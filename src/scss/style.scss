@@ -2,21 +2,43 @@
   font-family: 'Montserrat';
   src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 }
-.App {
+
+.container {
   max-width: 1200px;
   margin: auto;
 }
-.noteHeader {
-  list-style: none;
+
+.userInfo {
+  color: #fff;
+}
+
+.main {
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  padding: 0px;
-  li {
-    margin: 0px 10px 0px 10px;
-    color: #fff;
-    font-size: 24px;
-    font-family: Montserrat;
-    font-weight: 900;
+  justify-content: space-evenly;
+  .user {
+    margin: 20px;
+  }
+}
+
+.Header {
+  .header_box {
+    max-width: 1200px;
+    margin: auto;
+    .noteHeader {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding: 0px;
+      li {
+        margin: 0px 10px 0px 10px;
+        color: #fff;
+        font-size: 24px;
+        font-family: Montserrat;
+        font-weight: 900;
+      }
+    }
   }
 }

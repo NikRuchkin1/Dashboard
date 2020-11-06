@@ -1,5 +1,4 @@
 import React from 'react'
-import Albums from './Albums'
 
 function Header() {
 
@@ -19,7 +18,7 @@ function Header() {
                 </ul>
             </div>
             <div className='header_photo'>
-                <Albums/>
+
             </div>
         </div>
     )
