@@ -1,0 +1,8 @@
+ant.design
+Redux
+Formik
+Socket.io
+axios
+lodash
+rudux-thunk
+react-touter-dom
